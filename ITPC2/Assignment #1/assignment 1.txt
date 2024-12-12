@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Chryztel's Assignment 1</title>
+  
+
+<!--For the design-->
+  <style>
+       
+	 body 
+	{
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header, footer 
+	{
+            background-color: #e675c8;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+	nav
+	{
+	    background-color: #f3d4f3;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+	}
+
+        nav a 
+	{
+            color: #fff;
+      	}
+        
+      
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Chryztel's Assignment 1</h1>
+        <p>BSIT 1-1</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#course">My Course</a>
+        <a href="#passion">Why I Love IT</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+		<img src="images/self.jpg" 
+		style="float:right;width:220px;height:270px;">
+            <h2>About Me</h2>
+            <p><strong>Name:</strong> Chryztel Geene U. Salvador </p>
+            <p><strong>Age:</strong> 18</p>
+            <p>I’m a passionate individual driven by curiosity and a love for technology and design.</p>
+        </section>
+
+        <!-- Course Section -->
+        <section id="course">
+            <h2>My Course</h2>
+            <p>I am currently pursuing a degree in <strong>Information Technology</strong> because I believe technology is the future, shaping how we live, work, and connect.</p>
+        </section>
+
+        <!-- Section -->
+        <section id="passion">
+            <h2>Why I Love IT</h2>
+            <p>IT combines my creative skills and technical knowledge. It challenges me to solve real-world problems, innovate, and create solutions that positively impact others. It fuels my passion for lifelong learning and growth.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+  		<p>Facebook Chryztel Salvador</p>
+	 	<p>Instagram Chryztel Salvador</p>
+	 	<p>Email chryztelsalvador@gmail.com</p>
+    </footer>
+</body>
+</html>
